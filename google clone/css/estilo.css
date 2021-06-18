@@ -1,0 +1,172 @@
+body{
+	margin:0;
+	padding: 0;
+	size: 13px;
+	font-family: arial; 
+}
+
+header{
+	width: 100%;
+}
+
+header nav{
+   display: flex;
+   justify-content: flex-end;
+} 
+
+header nav .nav-right-section{
+   width: 250px;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   list-style: none;
+}
+
+.nav-right-section .raya:hover{
+    border-bottom: 1px solid black;
+}
+
+nav .nav-right-section a{
+   margin: 10px;
+   color: #000000;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+nav .nav-right-section .icon{
+	background-image: url(../imagenes/menu.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	margin-left: 7px;
+}
+
+nav .nav-right-section img{
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+main {
+	margin-top: 150px;
+	text-align: center;
+}
+
+
+main .sec-logo {
+   margin: 0;
+   margin-bottom: 35px;
+
+}
+
+
+main .sec-logo img{
+	width: 300px;
+}
+
+main .m-imput{
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .m-imput input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .imput-container{
+	width: 550px;
+	border-radius: 100px;
+	border: 1px solid #E3E3E3; 
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+main .m-imput .search-icon{
+	background-image: url(../imagenes/lupa.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 20px;
+	height: 20px; 
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+main .m-imput .micro-icon{
+    background-image: url(../imagenes/micro.png);
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 25px;
+	height: 25px; 
+}
+
+main .buttons{
+	width: 540px;
+	margin: 0 auto;
+}
+
+main .buttons div{
+    display: inline-block;
+}
+
+main .buttons button{
+	margin-right: 15px;
+	padding: 5 15px;
+	border-radius: 5px;
+	background-color: #B8B8B7;
+	height: 40px; 
+	border: 0;
+	font-family: 15px;
+	color: #504F56;
+	cursor: pointer;
+}
+
+main .buttons button:hover{
+    border: 2px solid black;
+    box-shadow: 0 1px 1px solid green;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	font-size: 15px;
+	background-color: #BCC7C5;
+}
+
+footer ul{
+	display: flex;
+	padding-left: 0;
+	margin: 12px;
+	list-style: none;
+}
+
+footer .foo-left{
+	justify-content: left; 
+}
+
+footer .foo-right{
+	justify-content: right;
+}
+
+footer ul,li a{
+	margin: 12px; 
+	color: black;
+	cursor: pointer;
+}
